@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" viewBox="0 0 850 320" role="img" aria-label="Vaidehi Narvekar — AI and Data Science Student, Machine Learning, Data Analysis, Web Development">
+  <defs>
+    <linearGradient id="vnh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="0.55" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+    <linearGradient id="vnh-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E5B5C7" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vnh-wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset="0.5" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#701A3D"/>
+    </linearGradient>
+    <linearGradient id="vnh-underline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="vnh-orbit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#451126" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="vnh-grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#F8F0F3" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="vnh-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- cinematic midnight base -->
+  <rect width="850" height="320" rx="18" fill="url(#vnh-bg)"/>
+  <rect width="850" height="320" rx="18" fill="url(#vnh-grid)"/>
+  <circle cx="700" cy="60" r="230" fill="#701A3D" opacity="0.12" filter="url(#vnh-blur)"/>
+  <circle cx="90" cy="300" r="180" fill="#451126" opacity="0.25" filter="url(#vnh-blur)"/>
+
+  <!-- moving light sweep (animated; invisible fallback harm) -->
+  <g opacity="0.9">
+    <rect x="-160" y="-120" width="120" height="560" fill="url(#vnh-sheen)" transform="skewX(-18)">
+      <animate attributeName="x" values="-220;900;-220" dur="13s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- orbital geometry (top-right), gentle rotation -->
+  <g>
+    <circle cx="700" cy="140" r="104" fill="none" stroke="url(#vnh-orbit)" stroke-width="1.2" stroke-dasharray="3 7">
+      <animateTransform attributeName="transform" type="rotate" from="0 700 140" to="360 700 140" dur="36s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="140" r="68" fill="none" stroke="#C77B9B" stroke-opacity="0.35" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="360 700 140" to="0 700 140" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="140" r="5" fill="#C77B9B">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 700 140" to="360 700 140" dur="16s" repeatCount="indefinite"/>
+      <circle cx="804" cy="140" r="3.5" fill="#E5B5C7"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 700 140" to="-360 700 140" dur="28s" repeatCount="indefinite"/>
+      <circle cx="700" cy="30" r="2.6" fill="#C77B9B"/>
+    </g>
+  </g>
+
+  <!-- animated signal path -->
+  <path d="M0 268 C 120 236, 210 292, 330 258 S 560 208, 700 236 S 810 252, 850 240"
+        fill="none" stroke="url(#vnh-wave)" stroke-width="2" stroke-dasharray="9 13">
+    <animate attributeName="stroke-dashoffset" from="0" to="-220" dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- identify block -->
+  <text x="48" y="66" fill="#C77B9B" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3">~/vaidehi-narvekar</text>
+  <text x="48" y="150" fill="#F8F0F3" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="2">VAIDEHI NARVEKAR</text>
+  <text x="48" y="192" fill="#C77B9B" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="1.5">AI &amp; DATA SCIENCE · B.Tech @ DJSCE</text>
+  <text x="48" y="222" fill="#E5B5C7" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" letter-spacing="1">Machine Learning  ·  Data Analysis  ·  Web Development</text>
+
+  <!-- glowing underline -->
+  <rect x="48" y="236" width="210" height="3.5" rx="1.75" fill="url(#vnh-underline)" filter="url(#vnh-blur)">
+    <animate attributeName="width" values="210;250;210" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="48" y="236" width="210" height="3.5" rx="1.75" fill="#C77B9B"/>
+
+  <!-- corner ticks (technical framing) -->
+  <path d="M20 20 h26 M20 20 v26" stroke="#C77B9B" stroke-opacity="0.7" stroke-width="2" fill="none"/>
+  <path d="M830 300 h-26 M830 300 v-26" stroke="#C77B9B" stroke-opacity="0.7" stroke-width="2" fill="none"/>
+</svg>
