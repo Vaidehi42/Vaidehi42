@@ -8,7 +8,7 @@
 
 I like projects where the challenge is real: predicting layoff risk from hard numbers, making an app usable for people with colour-vision deficiency, and building interfaces that stay sharp on every screen size.
 
-📍 Virar, Maharashtra · ✉️ [vaidehinar42@gmail.com](mailto:vaidehinar42@gmail.com) · 💼 [LinkedIn — Vaidehi Narvekar](https://www.linkedin.com/in/vaidehi-narvekar-62a452387/)
+📍 Virar, Maharashtra · ✉️ [vaidehinar42@gmail.com](mailto:vaidehinar42@gmail.com) · 💼 [LinkedIn — Vaidehi Narvekar](https://www.linkedin.com/in/vaidehi-narvekar-62a452387/) · 🌐 [Portfolio website](https://vaidehi42.github.io/Portfolio/)
 
 ---
 
